@@ -22,6 +22,9 @@ body {
 .my-editor .ck-editor__editable_inline {
   min-height: 250px;
 }
+.coundown{
+  font-family: "Bungee", sans-serif;
+}
 
 @keyframes float {
   0%,

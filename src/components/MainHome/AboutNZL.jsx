@@ -27,7 +27,7 @@ const AboutNZL = () => {
           {/* TOP ROW */}
           <div className="grid gap-6 md:grid-cols-2">
             {/* CARD 1 */}
-            <div className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
+            <div className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm transition-transform duration-300 hover:scale-105">
               <h3 className="text-2xl font-semibold text-gray-900">
                 Reverse Auction Mode
               </h3>
@@ -43,7 +43,7 @@ const AboutNZL = () => {
             </div>
 
             {/* CARD 2 */}
-            <div className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
+            <div className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm transition-transform duration-300 hover:scale-105">
               <div className="mt-10 mb-8 flex gap-3">
                 <img src="images/image/icons.png" alt="" />
               </div>
@@ -59,7 +59,7 @@ const AboutNZL = () => {
 
           {/* BOTTOM ROW */}
           <div className="grid gap-6 md:grid-cols-3">
-            <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+            <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-transform duration-300 hover:scale-105">
               <h4 className="text-lg font-semibold text-gray-900">
                 Gamified Strategy
               </h4>
@@ -70,7 +70,7 @@ const AboutNZL = () => {
               <img src="/images/image/02.png" alt="" className="mt-5" />
             </div>
 
-            <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+            <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-transform duration-300 hover:scale-105">
               <img src="/images/image/01.png" alt="" className="mb-5" />
               <h4 className="text-lg font-semibold text-gray-900">
                 Group Purchasing
@@ -80,7 +80,7 @@ const AboutNZL = () => {
               </p>
             </div>
 
-            <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+            <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-transform duration-300 hover:scale-105">
               <h4 className="text-lg font-semibold text-gray-900">
                 Notify & Track
               </h4>

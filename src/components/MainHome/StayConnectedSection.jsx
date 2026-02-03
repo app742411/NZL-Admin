@@ -27,7 +27,7 @@ const StayConnectedSection = () => {
     <section className="relative bg-white py-32 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6">
         {/* HEADING */}
-        <h2 className="mx-auto mb-20 max-w-3xl text-center text-4xl font-bold tracking-tight text-gray-900 md:text-5xl">
+        <h2 className="mx-auto mb-20 max-w-4xl text-center text-4xl font-bold tracking-tight text-gray-900 md:text-5xl">
           Stay connected with us for the latest
           <br />
           <span className="text-brand-500">updates and exclusive offers</span>

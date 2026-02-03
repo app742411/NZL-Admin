@@ -21,9 +21,9 @@ const TrustNZL = () => {
           </div>
 
           {/* RIGHT — SCROLL CONTENT */}
-          <div className="space-y-20">
+          <div className="space-y-10">
             {/* ITEM 1 */}
-            <div>
+            <div className="pb-10 border-b border-gray-200">
               <div className="text-5xl font-extrabold text-green-500">5.0</div>
               <div className="mt-2 text-lg font-semibold text-gray-900">
                 average app rating
@@ -35,7 +35,7 @@ const TrustNZL = () => {
             </div>
 
             {/* ITEM 2 */}
-            <div>
+            <div className="pb-10 border-b border-gray-200">
               <div className="text-5xl font-extrabold text-blue-600">35+</div>
               <div className="mt-2 text-lg font-semibold text-gray-900">
                 minutes per session
@@ -47,7 +47,7 @@ const TrustNZL = () => {
             </div>
 
             {/* ITEM 3 */}
-            <div>
+            <div className="pb-10 border-b border-gray-200">
               <div className="text-5xl font-extrabold text-purple-600">
                 $0.00
               </div>
@@ -61,7 +61,7 @@ const TrustNZL = () => {
             </div>
 
             {/* ITEM 4 (optional extra) */}
-            <div>
+            <div className="pb-10 border-b border-gray-200">
               <div className="text-5xl font-extrabold text-orange-500">
                 24/7
               </div>
