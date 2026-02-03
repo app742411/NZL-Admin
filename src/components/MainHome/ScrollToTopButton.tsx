@@ -33,7 +33,7 @@ export default function ScrollToTopButton() {
     <button
       onClick={scrollToTop}
       aria-label="Scroll to top"
-      className="fixed bottom-8 right-8 z-50 h-14 w-14 rounded-full bg-white shadow-lg flex items-center justify-center"
+      className="fixed bottom-8 right-8 z-50 h-14 w-14 rounded-full flex items-center justify-center"
     >
       {/* SVG Progress Ring */}
       <svg
