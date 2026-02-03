@@ -24,7 +24,7 @@ const HeroBannerdemo = () => {
 
             {/* Grid background */}
             <div className="pointer-events-none absolute inset-0 z-0">
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-[size:60px_60px]" />
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-size-[60px_60px]" />
             </div>
 
             <div className="relative z-10 mx-auto flex min-h-[110vh] max-w-7xl flex-col items-center px-6 pt-24 text-center">
